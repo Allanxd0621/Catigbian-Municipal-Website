@@ -1,63 +1,325 @@
-<!DOCTYPE html> <!--Okat gama tag website without vibe coding it-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><!--notee!! user scalable to no arun dimag sig zoom-->
-    <title>Municipality of Catigbian</title>
-    <link rel="icon" href="Catigbian-Logo.png">
-    <link rel="stylesheet" href="cat.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Catigbian Municipality</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="Catigbian-Logo.png">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-    
-    <!-- HERO HEADER -->
-    <header class="mainheader">
-        <div class="navbar">
-             <nav>
-                <ul>
-                 <li a href="#about">About</li>
-                </ul>
-        </nav>
+
+  <!-- HEADER -->
+  <header>
+
+    <!-- NAVIGATION -->
+    <nav>
+
+      <div class="logo">
+        <img src="Catigbian-Logo.png" alt="Municipality Logo">
+        <span>Catigbian Municipality</span>
+      </div>
+
+      <div class="menu-btn" id="menu-btn">
+        ☰
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#announcements">Announcements</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#mayor">Mayor</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+
+      <div class="hero-content">
+
+        <h1>Home of Katigbawan Festival</h1>
+
+        <p>
+          Experience colorful diversity and hospitality through every 
+          Katigbianon tradition, culture, and celebration.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#services" class="btn btn-primary">
+            Explore Services
+          </a>
+
+          <a href="#contact" class="btn btn-secondary">
+            Contact Us
+          </a>
+
         </div>
-        <img class="logo" src="Catigbian-Logo.png" alt="Catigbian Logo">
-        <div class="titles">
-            <h1 class="title">Municipality of Catigbian</h1>
-             <h2 class="subtitle">Home of the Katigbawan Festival</h2>
-        </div>
-    </header>
 
-    <!-- GREEN LINE -->
-    <div class="line"></div>
+      </div>
 
-    <!-- CONTENT -->
-    <main class="about">
+    </div>
 
-        <div class="homepara">
-            <h3><i>What</i></h3>
-            <p> 
-                Catigbian, officially the Municipality of Catigbian (Cebuano: Munisipyo sa Catigbian; Tagalog: Bayan ng Catigbian), is a 4th class municipality in the province of Bohol, Philippines. Based on the latest available census data as of 2026, Catigbian continues to grow as one of Bohol’s developing inland municipalities, known for its agricultural industry, livestock trading, tourism spots, and peaceful rural communities.
-            </p>
+  </header>
 
-            <p>
-                Formerly known as San Jacinto, the municipality officially adopted the name “Catigbian” in 1954. The name originated from the “Katigbi” plant (Coix lacryma-jobi), a seed-bearing plant that once grew abundantly in the area.
-            </p>
+  <!-- SERVICES -->
+  <section id="services">
 
-            <p>
-                Catigbian was founded in 1829 as one of the settlements where rebels were relocated following the suppression of the historic Dagohoy Rebellion. In 1903, during the reorganization of the province of Bohol, the town was annexed to Balilihan before regaining its status as an independent municipality on June 17, 1949.
-            </p>
+    <div class="section-title">
 
-            <p>
-                Located approximately 34 kilometers north of Tagbilaran City, Catigbian is bordered by the municipalities of Balilihan, Sagbayan, Tubigon, San Isidro, and Batuan. The municipality is politically subdivided into 22 barangays, each consisting of puroks and several sitios.
-            </p>
+      <h2>Public Services</h2>
 
-            <p>
-                Today, Catigbian is recognized for its growing local economy, educational institutions, eco-tourism destinations, and community-centered development programs. The municipality also continues to celebrate its culture and heritage through local festivals, public events, and agricultural activities that reflect the identity and traditions of the Catigbianons.
-            </p>
+      <p>
+        Publicly Accessible Services
+      </p>
 
-        </div>
+    </div>
 
-    </main>
+    <div class="services-grid">
+
+      <!-- HEALTHCARE -->
+      <div class="service-card">
+        <h3>Healthcare</h3>
+        <img 
+          class="photos"
+          src="districthospital.webp"
+          alt="Catigbian District Hospital"
+        >
+
+        
+
+        <h4>Catigbian District Hospital</h4>
+
+        <p>
+          Catigbian District Hospital is a public healthcare facility 
+          serving the residents of Catigbian and nearby municipalities 
+          in Bohol. The hospital provides accessible medical services, 
+          patient care, and community health programs dedicated to 
+          improving the well-being of local residents.
+        </p>
+
+        <a 
+          class="visit-btn"
+          href="https://pho.bohol.gov.ph/hospitals/catigbian-district-hospital/"
+          target="_blank"
+        >
+          Visit Website
+        </a>
+
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="service-card">
+
+        <img 
+          class="photos"
+          src="education.jpg"
+          alt="Education Services"
+        >
+
+        <h3>Education</h3>
+
+        <h4>Local Schools & Programs</h4>
+
+        <p>
+          Catigbian supports educational development through public 
+          schools, scholarship initiatives, and community learning 
+          programs that help students achieve quality education.
+        </p>
+
+        <a class="visit-btn" href="#">
+          Learn More
+        </a>
+
+      </div>
+
+      <!-- TOURISM -->
+      <div class="service-card">
+
+        <img 
+          class="photos"
+          src="tourism.jpg"
+          alt="Tourism in Catigbian"
+        >
+
+        <h3>Tourism</h3>
+
+        <h4>Discover Catigbian</h4>
+
+        <p>
+          Explore the beauty, culture, and traditions of Catigbian 
+          through local destinations, festivals, and eco-tourism 
+          attractions across the municipality.
+        </p>
+
+        <a class="visit-btn" href="#">
+          Explore Tourism
+        </a>
+
+      </div>
+
+      <!-- EMERGENCY -->
+      <div class="service-card">
+
+        <img 
+          class="photos"
+          src="emergency.jpg"
+          alt="Emergency Services"
+        >
+
+        <h3>Emergency</h3>
+
+        <h4>Emergency Assistance</h4>
+
+        <p>
+          Access emergency hotlines and response services for medical, 
+          disaster, rescue, and public safety concerns within the 
+          municipality of Catigbian.
+        </p>
+
+        <a class="visit-btn" href="#">
+          View Hotlines
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ANNOUNCEMENTS -->
+  <section id="announcements" class="announcements">
+
+    <div class="section-title">
+
+      <h2>Latest Announcements</h2>
+
+      <p>
+        Stay updated with public advisories and local events.
+      </p>
+
+    </div>
+
+    <div class="announcement-grid">
+
+      <div class="announcement-card">
+
+        <span>May 2026</span>
+
+        <h3>Community Cleanup Drive</h3>
+
+        <p>
+          Residents are encouraged to participate in the municipality-wide
+          cleanup drive to promote environmental awareness and cleanliness.
+        </p>
+
+      </div>
+
+      <div class="announcement-card">
+
+        <span>May 2026</span>
+
+        <h3>Scholarship Program</h3>
+
+        <p>
+          Scholarship applications for qualified students are now open. 
+          Submit your requirements before the announced deadline.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATISTICS -->
+  <section id="stats" class="stats">
+
+    <div class="stats-grid">
+
+      <div class="stat-card">
+        <h2>25K+</h2>
+        <p>Residents</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>98%</h2>
+        <p>Service Satisfaction</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>22</h2>
+        <p>Barangays</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>15</h2>
+        <p>Public Programs</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MAYOR SECTION -->
+  <section id="mayor">
+
+    <div class="mayor-section">
+
+      <img 
+        src="YOUR-MAYOR-PHOTO.jpg"
+        alt="Mayor Photo"
+      >
+
+      <div class="mayor-content">
+
+        <h2>Message From The Mayor</h2>
+
+        <p>
+          Welcome to the Municipality of Catigbian. 
+          Our mission is to continue building a progressive, peaceful, 
+          and people-centered community through transparent governance, 
+          quality public service, and sustainable development for every 
+          Catigbianon.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+
+    <h2>Municipality of Catigbian</h2>
+
+    <p>
+      Catigbian, Bohol, Philippines
+    </p>
+
+    <p>
+      Contact Number | Email Address
+    </p>
+
+    <p>
+      © 2026 Municipality of Catigbian. All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
