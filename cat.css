@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgb(201, 238, 201), white);
+}
+
+.mainheader{
+    background: url('Screenshot_2026-05-08-19-56-54-063_com.instagram.android-edit.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+}
+
+    .titles{
+        margin-top: 50px;
+    }
+    .subtitle{
+        margin-top: 0%;
+    }
+.homepara{
+    background-color: white;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.title{
+    margin: 0;
+}
+
+.line{
+    height: 2px;
+    background: green;
+}
+
+.home{
+    padding: 20px;
+}
